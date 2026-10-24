@@ -2,7 +2,11 @@
 
 By Basement Protocol. Find people at the companies you want to work with, get a personal email, two follow-ups and a 4-page deck made for each one, approve them, and send from your own Gmail. Ask for more slides on Review and the deck grows.
 
+![Review: a personal email, follow-ups and a deck for every lead](docs/img/review.png)
+
 4ruple runs on your laptop. Your leads, keys and emails stay there, and every email and deck is written by your own Claude Code sign-in, so there's no per-email AI fee.
+
+![Leads](docs/img/leads.png)
 
 ## What you need
 
