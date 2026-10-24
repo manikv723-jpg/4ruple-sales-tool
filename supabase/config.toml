@@ -1,0 +1,13 @@
+# Only what 4ruple's license service needs. `supabase link --project-ref <ref>` connects the real project.
+project_id = "4ruple-licenses"
+
+# The app and payment providers call these without a Supabase login, so JWT checks are off.
+# license checks keys itself; issue-license checks the Razorpay signature or the admin token.
+[functions.license]
+verify_jwt = false
+
+[functions.issue-license]
+verify_jwt = false
+
+[functions.team]
+verify_jwt = false

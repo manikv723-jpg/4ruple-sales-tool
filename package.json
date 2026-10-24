@@ -1,0 +1,38 @@
+{
+  "name": "4ruple",
+  "version": "0.1.0",
+  "description": "4ruple.ai by Basement Protocol: find people at your target companies, get a personal email and deck for each, and send from your own Gmail. Runs on your laptop with your Claude Code.",
+  "type": "module",
+  "bin": {
+    "4ruple": "bin/4ruple.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "public/",
+    "server.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.mjs",
+    "keygen": "node scripts/license-keygen.mjs"
+  },
+  "keywords": [
+    "outreach",
+    "cold-email",
+    "sales",
+    "claude-code"
+  ],
+  "homepage": "https://basementprotocol.com/4ruple",
+  "author": "Basement Protocol",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "imapflow": "^2.0.3",
+    "mailparser": "^3.9.26",
+    "nodemailer": "^10.0.9"
+  }
+}
